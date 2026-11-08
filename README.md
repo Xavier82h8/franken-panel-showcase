@@ -8,7 +8,13 @@
 
 *EN: Self-hosted control panel for Ubuntu Server (Node.js/Fastify) that manages sites, domains, Nginx vhosts, Let's Encrypt SSL, GitHub-webhook deploys and a sandboxed web terminal, with RBAC auth, audit logs and real-time events over WebSockets.*
 
-<!-- TODO: captura del dashboard / GIF de crear sitio → SSL → deploy -->
+![Franken Panel: despliegue de un sitio desde un repositorio de GitHub](docs/capturas/deploy.webp)
+
+| Conexión al servidor | Configuración de Nginx |
+|---|---|
+| ![Pantalla de conexión segura con URL del servidor o Cloudflare Tunnel y credenciales](docs/capturas/conexion-segura.webp) | ![Formulario para crear un vhost de Nginx con dominio, puerto y SSL de Let's Encrypt](docs/capturas/nginx.webp) |
+
+<sub>Capturas del panel real corriendo en local.</sub>
 
 ---
 
